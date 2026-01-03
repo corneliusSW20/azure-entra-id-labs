@@ -4,14 +4,21 @@
 Administer Identity
 
 ## Objective
-Provision users and groups in Microsoft Entra ID and automate group
-membership using dynamic rules.
+Provision and manage users and groups in Microsoft Entra ID and automate
+group membership using dynamic rules.
 
-## Tasks
-- Create users
-- Assign job titles
-- Create security groups
-- Configure dynamic membership rules
+## Scenario
+A pre-production lab environment requires engineers to authenticate using
+Microsoft Entra ID. Group membership must be automatically managed
+based on job roles.
+
+## Tasks Completed
+- Created users in Microsoft Entra ID
+- Assigned job titles and user properties
+- Created security groups
+- Configured dynamic group membership rules
+- Verified automatic group membership
 
 ## Outcome
-Users are automatically added to groups based on their roles.
+Users were automatically added to the correct groups based on their job titles,
+reducing administrative overhead.
